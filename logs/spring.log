@@ -1,0 +1,42 @@
+2026-11-05T19:34:25.408-03:00  INFO 33883 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Starting EstoqueApplicationKt using Java 21.0.12 with PID 33883 (/Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque/build/classes/kotlin/main started by arthurtreehouseenglish.com.br in /Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque)
+2026-11-05T19:34:25.411-03:00  INFO 33883 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : No active profile set, falling back to 1 default profile: "default"
+2026-11-05T19:34:26.275-03:00  INFO 33883 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-05T19:34:26.358-03:00  INFO 33883 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2026-11-05T19:34:26.819-03:00  INFO 33883 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-05T19:34:26.833-03:00  INFO 33883 --- [estoque] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-05T19:34:26.833-03:00  INFO 33883 --- [estoque] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-05T19:34:26.870-03:00  INFO 33883 --- [estoque] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1422 ms
+2026-11-05T19:34:27.013-03:00  INFO 33883 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-05T19:34:27.161-03:00  INFO 33883 --- [estoque] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-11-05T19:34:27.163-03:00  INFO 33883 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-05T19:34:27.186-03:00  INFO 33883 --- [estoque] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-05T19:34:27.250-03:00  INFO 33883 --- [estoque] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.25.Final
+2026-11-05T19:34:27.591-03:00  INFO 33883 --- [estoque] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-05T19:34:27.640-03:00  INFO 33883 --- [estoque] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-05T19:34:28.320-03:00  INFO 33883 --- [estoque] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-05T19:34:28.349-03:00  INFO 33883 --- [estoque] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-05T19:34:28.532-03:00  INFO 33883 --- [estoque] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-05T19:34:29.505-03:00  WARN 33883 --- [estoque] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-05T19:34:29.707-03:00  INFO 33883 --- [estoque] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-11-05T19:34:29.738-03:00  INFO 33883 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-11-05T19:34:29.863-03:00  INFO 33883 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Started EstoqueApplicationKt in 4.867 seconds (process running for 5.736)
+2026-11-05T19:34:29.864-03:00  WARN 33883 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-05T19:34:29.865-03:00  WARN 33883 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-05T19:34:52.988-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-05T19:34:52.988-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-05T19:34:52.996-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-11-05T19:34:53.582-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 287 ms
+2026-11-05T19:47:17.825-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-5] b.p.e.movimentacoes.MovimentacaoService  : Movimentação 1 (ENTRADA) registrada no produto 2
+2026-11-05T19:48:14.487-03:00  WARN 33883 --- [estoque] [http-nio-8080-exec-10] b.p.e.movimentacoes.MovimentacaoService  : Saída recusada no produto 3: estoque insuficiente
+2026-11-05T19:48:27.816-03:00  INFO 33883 --- [estoque] [http-nio-8080-exec-2] b.p.e.movimentacoes.MovimentacaoService  : Movimentação 2 (SAIDA) registrada no produto 3
