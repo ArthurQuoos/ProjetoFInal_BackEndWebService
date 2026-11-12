@@ -1,11 +1,11 @@
-# Trabalho final - Backend (Estoque)
+# Trabalho Final -  API de Controle de Estoque
 
-API de controle de estoque feita na disciplina Back-End: Web Services, com categorias, fornecedores,
-produtos e movimentações de entrada e saída.
+API REST em Kotlin com Spring Boot para controlar o estoque de produtos, com categorias, fornecedores, entradas e saídas de estoque e login com JWT.
+Trabalho final da disciplina Back-End: Web Services (PUCPR).
 
-## Membros
+## Integrantes
 
-* [Eric Tan Hui Zhen]
-* [João Vitor Krupa Ingles]
-* [Arthur Albert Schmaiske Quoos]
+* Eric Tan Hui Zhen
+* João Vitor Krupa Ingles
+* Arthur Albert Schmaiske Quoos
 
