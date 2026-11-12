@@ -1,7 +1,7 @@
 package br.pucpr.estoque.produtos.responses
 
-import br.pucpr.estoque.categorias.responses.CategoriaResponse
-import br.pucpr.estoque.fornecedores.responses.FornecedorResponse
+import br.pucpr.estoque.categorias.responses.CategoriaResumoResponse
+import br.pucpr.estoque.fornecedores.responses.FornecedorResumoResponse
 import br.pucpr.estoque.produtos.Produto
 import java.math.BigDecimal
 
@@ -11,8 +11,8 @@ data class ProdutoResponse(
     var codigo: String,
     var preco: BigDecimal,
     var quantidade: Int,
-    var categoria: CategoriaResponse,
-    var fornecedores: List<FornecedorResponse>
+    var categoria: CategoriaResumoResponse,
+    var fornecedores: List<FornecedorResumoResponse>
 ) {
     constructor(produto: Produto) :
             this(
@@ -21,7 +21,7 @@ data class ProdutoResponse(
                 codigo = produto.codigo,
                 preco = produto.preco,
                 quantidade = produto.quantidade,
-                categoria = CategoriaResponse(produto.categoria),
-                fornecedores = produto.fornecedores.map { FornecedorResponse(it) }
+                categoria = CategoriaResumoResponse(produto.categoria),
+                fornecedores = produto.fornecedores.map { FornecedorResumoResponse(it) }
             )
 }
