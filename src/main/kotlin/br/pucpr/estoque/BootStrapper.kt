@@ -11,6 +11,7 @@ import br.pucpr.estoque.users.UserRepository
 import jakarta.transaction.Transactional
 import org.springframework.context.ApplicationListener
 import org.springframework.context.event.ContextRefreshedEvent
+import org.springframework.security.crypto.password.PasswordEncoder
 import org.springframework.stereotype.Component
 import java.math.BigDecimal
 
@@ -19,7 +20,8 @@ class BootStrapper(
     val userRepository: UserRepository,
     val categoriaRepository: CategoriaRepository,
     val fornecedorRepository: FornecedorRepository,
-    val produtoRepository: ProdutoRepository
+    val produtoRepository: ProdutoRepository,
+    val passwordEncoder: PasswordEncoder
 ) : ApplicationListener<ContextRefreshedEvent> {
 
     @Transactional
@@ -28,7 +30,7 @@ class BootStrapper(
             userRepository.save(
                 User(
                     name = "Administrator",
-                    password = "admin",
+                    password = passwordEncoder.encode("admin")!!,  // senha salva criptografada
                     email = "admin@estoque.com"
                 )
             )
