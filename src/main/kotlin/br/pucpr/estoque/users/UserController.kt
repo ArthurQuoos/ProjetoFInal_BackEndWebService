@@ -18,7 +18,6 @@ class UserController(
     fun login(
         @Valid @RequestBody request: LoginRequest
     ) = service.login(request.email!!, request.password!!)
-        .let { UserResponse(it) }
         .let { ResponseEntity.ok(it) }
 
     @GetMapping
