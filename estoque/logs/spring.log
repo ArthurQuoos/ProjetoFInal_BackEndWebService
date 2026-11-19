@@ -1,0 +1,143 @@
+2026-11-19T00:00:50.789-03:00  INFO 17051 --- [estoque] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T00:00:50.826-03:00  INFO 17051 --- [estoque] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T00:00:50.838-03:00  INFO 17051 --- [estoque] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T00:00:50.857-03:00  INFO 17051 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T00:00:50.860-03:00  INFO 17051 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T00:00:55.586-03:00  INFO 17248 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Starting EstoqueApplicationKt using Java 21.0.12 with PID 17248 (/Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque/build/classes/kotlin/main started by arthurtreehouseenglish.com.br in /Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque)
+2026-11-19T00:00:55.587-03:00  INFO 17248 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : The following 1 profile is active: "dev"
+2026-11-19T00:00:56.039-03:00  INFO 17248 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T00:00:56.075-03:00  INFO 17248 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 6 JPA repository interfaces.
+2026-11-19T00:00:56.364-03:00  INFO 17248 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-19T00:00:56.373-03:00  INFO 17248 --- [estoque] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T00:00:56.373-03:00  INFO 17248 --- [estoque] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T00:00:56.397-03:00  INFO 17248 --- [estoque] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 783 ms
+2026-11-19T00:00:56.483-03:00  INFO 17248 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T00:00:56.567-03:00  INFO 17248 --- [estoque] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-11-19T00:00:56.568-03:00  INFO 17248 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T00:00:56.592-03:00  INFO 17248 --- [estoque] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T00:00:56.635-03:00  INFO 17248 --- [estoque] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.25.Final
+2026-11-19T00:00:56.890-03:00  INFO 17248 --- [estoque] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T00:00:56.936-03:00  INFO 17248 --- [estoque] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T00:00:57.867-03:00  INFO 17248 --- [estoque] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T00:00:57.899-03:00  INFO 17248 --- [estoque] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T00:00:58.117-03:00  INFO 17248 --- [estoque] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T00:00:59.017-03:00  WARN 17248 --- [estoque] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T00:00:59.061-03:00  WARN 17248 --- [estoque] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 457f93ec-07b4-4e03-9de3-e004b04548b4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-19T00:00:59.066-03:00  INFO 17248 --- [estoque] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-19T00:00:59.341-03:00  INFO 17248 --- [estoque] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-11-19T00:00:59.400-03:00  INFO 17248 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-11-19T00:00:59.523-03:00  INFO 17248 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Started EstoqueApplicationKt in 4.252 seconds (process running for 4.779)
+2026-11-19T00:00:59.524-03:00  WARN 17248 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-19T00:00:59.524-03:00  WARN 17248 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-19T00:02:21.392-03:00  INFO 17248 --- [estoque] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T00:02:21.393-03:00  INFO 17248 --- [estoque] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T00:02:21.401-03:00  INFO 17248 --- [estoque] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-11-19T00:02:38.737-03:00  INFO 17248 --- [estoque] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T00:02:38.745-03:00  INFO 17248 --- [estoque] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T00:02:38.750-03:00  INFO 17248 --- [estoque] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T00:02:38.760-03:00  INFO 17248 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T00:02:38.762-03:00  INFO 17248 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-19T00:02:41.967-03:00  INFO 17261 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Starting EstoqueApplicationKt using Java 21.0.12 with PID 17261 (/Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque/build/classes/kotlin/main started by arthurtreehouseenglish.com.br in /Users/arthurtreehouseenglish.com.br/Documents/Projetos Arthur/PUCPR/BackEndWebServices/Trabalho/estoque/estoque)
+2026-11-19T00:02:41.970-03:00  INFO 17261 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : The following 1 profile is active: "dev"
+2026-11-19T00:02:42.470-03:00  INFO 17261 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-19T00:02:42.500-03:00  INFO 17261 --- [estoque] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 6 JPA repository interfaces.
+2026-11-19T00:02:42.781-03:00  INFO 17261 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-19T00:02:42.789-03:00  INFO 17261 --- [estoque] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-19T00:02:42.789-03:00  INFO 17261 --- [estoque] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-19T00:02:42.812-03:00  INFO 17261 --- [estoque] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 809 ms
+2026-11-19T00:02:42.893-03:00  INFO 17261 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-19T00:02:42.974-03:00  INFO 17261 --- [estoque] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db user=SA
+2026-11-19T00:02:42.975-03:00  INFO 17261 --- [estoque] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-19T00:02:42.993-03:00  INFO 17261 --- [estoque] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-19T00:02:43.036-03:00  INFO 17261 --- [estoque] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.25.Final
+2026-11-19T00:02:43.285-03:00  INFO 17261 --- [estoque] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-19T00:02:43.334-03:00  INFO 17261 --- [estoque] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-19T00:02:43.891-03:00  INFO 17261 --- [estoque] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-19T00:02:43.921-03:00  INFO 17261 --- [estoque] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T00:02:44.125-03:00  INFO 17261 --- [estoque] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-19T00:02:45.110-03:00  WARN 17261 --- [estoque] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-19T00:02:45.166-03:00  WARN 17261 --- [estoque] [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 90dc7210-723e-41c9-a8d2-ef881702809f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-19T00:02:45.172-03:00  INFO 17261 --- [estoque] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-19T00:02:45.484-03:00  INFO 17261 --- [estoque] [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db'
+2026-11-19T00:02:45.529-03:00  INFO 17261 --- [estoque] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/api'
+2026-11-19T00:02:45.657-03:00  INFO 17261 --- [estoque] [main] br.pucpr.estoque.EstoqueApplicationKt    : Started EstoqueApplicationKt in 3.917 seconds (process running for 4.481)
+2026-11-19T00:02:45.658-03:00  WARN 17261 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-19T00:02:45.659-03:00  WARN 17261 --- [estoque] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-19T00:03:01.222-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-19T00:03:01.223-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-19T00:03:01.226-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-19T00:04:33.731-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-4] br.pucpr.estoque.users.UserService       : Usuário 2 autenticado
+2026-11-19T00:05:24.540-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-6] br.pucpr.estoque.users.UserService       : Usuário 1 autenticado
+2026-11-19T00:10:25.822-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-10] br.pucpr.estoque.users.UserService       : Usuário 2 autenticado
+2026-11-19T00:11:11.880-03:00  INFO 17261 --- [estoque] [http-nio-8080-exec-2] br.pucpr.estoque.users.UserService       : Usuário 1 autenticado
+2026-11-19T00:30:38.221-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s929ms).
+2026-11-19T00:47:03.217-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s955ms).
+2026-11-19T01:03:05.466-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m2s248ms).
+2026-11-19T01:19:30.385-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s901ms).
+2026-11-19T01:35:26.367-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s982ms).
+2026-11-19T01:51:52.057-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s688ms).
+2026-11-19T02:08:17.667-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s588ms).
+2026-11-19T02:24:26.350-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m8s683ms).
+2026-11-19T02:31:09.070-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m12s714ms).
+2026-11-19T02:47:04.024-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s955ms).
+2026-11-19T03:03:28.899-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s862ms).
+2026-11-19T03:12:02.451-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m3s538ms).
+2026-11-19T03:18:22.921-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m20s470ms).
+2026-11-19T03:34:47.761-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s833ms).
+2026-11-19T03:51:37.999-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m19s596ms).
+2026-11-19T03:52:32.836-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s837ms).
+2026-11-19T04:08:57.758-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s915ms).
+2026-11-19T04:24:52.670-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s913ms).
+2026-11-19T04:41:07.184-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m14s513ms).
+2026-11-19T04:57:02.886-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s702ms).
+2026-11-19T05:13:32.219-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m59s317ms).
+2026-11-19T05:29:44.907-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m12s688ms).
+2026-11-19T05:45:39.773-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s867ms).
+2026-11-19T06:02:05.489-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s702ms).
+2026-11-19T06:10:36.786-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m31s297ms).
+2026-11-19T06:26:45.615-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m38s799ms).
+2026-11-19T06:42:40.468-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s854ms).
+2026-11-19T06:59:06.126-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s645ms).
+2026-11-19T07:15:31.012-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s879ms).
+2026-11-19T07:31:26.672-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s660ms).
+2026-11-19T07:47:22.390-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s717ms).
+2026-11-19T08:03:47.289-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s887ms).
+2026-11-19T08:19:33.702-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m46s413ms).
+2026-11-19T08:20:28.534-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s832ms).
+2026-11-19T08:27:35.326-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m6s792ms).
+2026-11-19T08:44:00.202-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s864ms).
+2026-11-19T08:59:55.067-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s866ms).
+2026-11-19T09:03:12.964-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m47s883ms).
+2026-11-19T09:09:10.696-03:00  WARN 17261 --- [estoque] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m57s732ms).
