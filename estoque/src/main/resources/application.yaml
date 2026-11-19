@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: estoque
+  config:
+    import: "classpath:security.yaml"
+  profiles:
+    active: dev
+  web:
+    error:
+      whitelabel:
+        enabled: false
+      include-message: always
+      include-binding-errors: always
+      include-stacktrace: never
+      include-exception: true
+  datasource:
+    username: sa
+    password: sa
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  servlet:
+    context-path: /api
+
+springdoc:
+  swagger-ui:
+    use-root-path: true
+
+logging:
+  file:
+    path: ./logs
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  datasource:
+    url: jdbc:h2:mem:db
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:h2:file:./data/estoque
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: false

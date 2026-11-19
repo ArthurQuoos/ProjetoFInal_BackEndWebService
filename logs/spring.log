@@ -1,0 +1,39 @@
+2026-11-19T00:06:21.339-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-10] b.p.e.fornecedores.FornecedorService     : Fornecedor 2 criado
+2026-11-19T00:07:47.355-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:08:00.385-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-6] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:09:49.666-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-1] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:10:01.530-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:11:10.335-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-8] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:11:31.028-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-1] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:12:15.130-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:12:37.600-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-9] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:13:21.132-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-2] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:13:33.159-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:14:29.460-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-9] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:14:45.284-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-1] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:15:29.225-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:15:37.758-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-6] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:17:14.727-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-10] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:17:23.541-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-2] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:17:37.439-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-4] b.p.e.movimentacoes.MovimentacaoService  : Saída recusada no produto 3: estoque insuficiente
+2026-11-19T00:18:14.352-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-5] b.p.e.movimentacoes.MovimentacaoService  : Movimentação 6 (ENTRADA) registrada no produto 3
+2026-11-19T00:20:12.403-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-2] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:20:22.359-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:21:21.838-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-7] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:21:30.988-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-9] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:21:44.378-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-1] b.p.e.movimentacoes.MovimentacaoService  : Saída recusada no produto 3: estoque insuficiente
+2026-11-19T00:22:17.982-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-2] b.p.e.movimentacoes.MovimentacaoService  : Movimentação 7 (ENTRADA) registrada no produto 3
+2026-11-19T00:23:34.054-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-6] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:23:41.443-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-8] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:24:59.961-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-2] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:25:09.110-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-4] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:25:22.097-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-6] b.p.e.movimentacoes.MovimentacaoService  : Saída recusada no produto 3: estoque insuficiente
+2026-11-19T00:26:34.821-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-9] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 associado ao produto 2
+2026-11-19T00:26:43.197-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-1] b.pucpr.estoque.produtos.ProdutoService  : Fornecedor 2 desassociado do produto 2
+2026-11-19T00:26:57.350-03:00  WARN 17712 --- [estoque] [http-nio-8080-exec-3] b.p.e.movimentacoes.MovimentacaoService  : Saída recusada no produto 3: estoque insuficiente
+2026-11-19T00:27:31.066-03:00  INFO 17712 --- [estoque] [http-nio-8080-exec-4] b.p.e.movimentacoes.MovimentacaoService  : Movimentação 8 (ENTRADA) registrada no produto 3
+2026-11-19T00:38:36.950-03:00  INFO 17712 --- [estoque] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-19T00:38:36.953-03:00  INFO 17712 --- [estoque] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-19T00:38:36.956-03:00  INFO 17712 --- [estoque] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-19T00:38:36.960-03:00  INFO 17712 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-19T00:38:36.962-03:00  INFO 17712 --- [estoque] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

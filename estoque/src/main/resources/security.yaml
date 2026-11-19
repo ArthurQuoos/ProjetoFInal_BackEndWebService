@@ -1,0 +1,8 @@
+security:
+  issuer: estoque-api
+  secret: troque-esta-chave-por-uma-bem-grande-com-mais-de-32-caracteres
+  expire-hours: 1
+  admin-expire-hours: 4
+  allowed-origins:
+    - http://localhost:3000
+    - http://localhost:5173
